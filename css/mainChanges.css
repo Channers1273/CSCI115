@@ -1,38 +1,78 @@
-.logo
+#logo
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
 }
 
 .navbar
 {
-    background-color: #003B5C;
+    
     position: sticky;
 }
 
 .navbar ul
 {
+    list-style: none;
+    background-color: #003B5C;
     overflow: auto;
+    text-align: center;
 }
 
 .navbar li
 {
-    float: left;
-    list-style: none;
-    margin: 15px 20px;
+    margin: 10px 20px;
+    display: inline-block;
 }
 
 .navbar li a
 {
-    padding: 3px 4px;
     text-decoration: none;
+    padding: 4px 3px;
     color: white;
+    /* font-weight: bold; */
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar li a:hover
+{
+    background: lightgrey;
 }
 
 body
 {
+    background-image: url('../img/BackgroundTexture1.jpg');
+    background-repeat: repeat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.videoThumbnail
+{
+    
+}
+
+.flexContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.flexItem
+{
+    margin: 10px;
+}
+
+.item1
+{
+    order: 1;
+}
+
+.item2
+{
+    order: 2;
 }
 
