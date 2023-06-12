@@ -46,11 +46,6 @@ body
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-p
-{
-  color: rbg(89, 89, 89,);
-}
-
 .flexContainer
 {
     display: flex;
