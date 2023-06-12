@@ -95,6 +95,7 @@
 body
 {
     background-image: url('../img/BackgroundTexture1.jpg');
+    /*Source of Background Texture: https://unsplash.com/s/photos/snow-texture*/
     background-repeat: repeat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
