@@ -141,7 +141,6 @@ h2{
 .tableBorder
 {
   border-collapse: collapse;
-  /* border: 3px, solid, black; */
 }
 
 td
@@ -177,12 +176,6 @@ td
 }
 
 /*------------------------------------------------------------------*/
-
-/* .weaponSummary
-{
-  border: 2px solid, black;
-  width: fit-content;
-} */
 
 .bulletSummary
 {
