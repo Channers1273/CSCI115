@@ -178,8 +178,21 @@ td
 
 /*------------------------------------------------------------------*/
 
-.weaponSummary
+/* .weaponSummary
 {
   border: 2px solid, black;
   width: fit-content;
+} */
+
+.bulletSummary
+{
+  display:block;
+  list-style-type: circle;
+  border: 2px solid black;
+  /* width: fit-content; */
+}
+
+.bulletSummary li
+{
+  padding: 2px;
 }
